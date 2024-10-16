@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-2": "indent-length:set-indent-length-2",
+    "ctrl-alt-4": "indent-length:set-indent-length-4",
+    "ctrl-alt-`": "indent-length:set-indent-length-default"
+  }
+}
