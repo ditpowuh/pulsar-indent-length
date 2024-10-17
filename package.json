@@ -1,16 +1,19 @@
 {
   "name": "pulsar-indent-length",
   "main": "./lib/pulsar-indent-length",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Quick way to switch indent/tab length in Pulsar/Atom",
-  "keywords": [
-    "Puslar",
-    "Atom"
-  ],
   "repository": "https://github.com/ditpowuh/pulsar-indent-length",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
 }
